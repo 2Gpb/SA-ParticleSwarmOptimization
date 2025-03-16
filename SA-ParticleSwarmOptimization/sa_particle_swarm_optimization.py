@@ -4,7 +4,7 @@ import numpy as np
 import copy
 
 
-class ParticleSwarmOptimization:
+class SAParticleSwarmOptimization:
     def __init__(self, fitness_func,
                  dim=2,
                  num_particles=30,

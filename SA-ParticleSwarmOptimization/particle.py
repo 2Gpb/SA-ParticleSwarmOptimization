@@ -28,7 +28,7 @@ class Particle:
         self._update_best()
 
     def _update_best(self):
-        self.fitness = self.fitness_func(self.position) * 0.02
+        self.fitness = self.fitness_func(self.position) * 0.01
         if self.fitness < self.best_fitness:
             self.best_position = self.position.copy()
             self.best_fitness = self.fitness
